@@ -22,6 +22,9 @@
     <!-- myy css -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>My Portofolio | Rafigo Lenathea</title>
   </head>
   <body id="">
@@ -94,14 +97,18 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>
-              Lahir di kebumen, Jawa Tengah, pada tanggal 5 Oktober 1998, tapi
-              dibesarkan di Yogyakarta, Pernah mengikuti kompetisi menjadi model
-              majalah gadis pada tahun 2011.
+              Lahir di kebumen, Jawa Tengah, pada tanggal 5 Oktober 1998 Pernah
+              mengikuti kompetisi menjadi model majalah gadis pada tahun 2011.
             </p>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <p>
               bergabung dengan JKT48 sebagai trainee pada tahun 2014 menjadi
               member generasi 3.
@@ -300,6 +307,13 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
 
     <script>
       const scriptURL =
